@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Hold Shift to Check Multiple Checkboxes</title>
+    <style>
+        @layer utilities{
+            .font-family{
+                font-family: 'Roboto Mono', monospace;
+            }
+        }
+    </style>
+</head>
+<body class="bg-yellow-300 font-family font-semibold">
+    <main class="checkboxes bg-white w-[600px] p-[10px] rounded-sm shadow-[5px_5px_1px_gray] mx-auto mt-[1%] divide-y">
+        <div class="item flex p-[10px]">
+            <input type="checkbox" class="check_1">
+            <p class="pl-[20px] font-medium">Create a list of all the tasks you need to complete.</p>
+        </div>
+        <div class="item flex p-[10px]">
+            <input type="checkbox" class="check_2">
+            <p class="pl-[20px] font-medium"> Determine which tasks are most important or time-sensitive.</p>
+        </div>
+        <div class="item flex p-[10px]">
+            <input type="checkbox" class="check_3">
+            <p class="pl-[20px] font-medium">Group similar tasks together (e.g. errands, work-related, personal).</p>
+        </div>
+        <div class="item flex p-[10px]">
+            <input type="checkbox" class="check_4">
+            <p class="pl-[20px] font-medium">Set realistic deadlines for each task based on their importance and complexity.</p>
+        </div>
+        <div class="item flex p-[10px]">
+            <input type="checkbox" class="check_5">
+            <p class="pl-[20px] font-medium">If a task seems overwhelming, break it down into smaller, manageable steps.</p>
+        </div>
+        <div class="item flex p-[10px]">
+            <input type="checkbox" class="check_6">
+            <p class="pl-[20px] font-medium">Estimate how long each task will take to complete.</p>
+        </div>
+        <div class="item flex p-[10px]">
+            <input type="checkbox" class="check_7">
+            <p class="pl-[20px] font-medium">Block out time in your calendar to work on each task.</p>
+        </div>
+        <div class="item flex p-[10px]">
+            <input type="checkbox" class="check_8">
+            <p class="pl-[20px] font-medium">Regularly review your progress and adjust your plans as needed.</p>
+        </div>
+        <div class="item flex p-[10px]">
+            <input type="checkbox" class="check_9">
+            <p class="pl-[20px] font-medium">Celebrate each completed task to stay motivated and positive.
+            </p>
+        </div>
+        <div class="item flex p-[10px]">
+            <input type="checkbox" class="check_10">
+            <p class="pl-[20px] font-medium">If you don't complete a task on time, learn from the experience and adjust your approach for next time.</p>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
